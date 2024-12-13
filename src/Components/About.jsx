@@ -9,7 +9,6 @@ export default function About(props) {
     color:'white',
     backgroundColor:'grey'
   }
-  const [mystyle, setmystyle] = useState(light);
   return (
     <div className="container p-5 rounded" style={props.mode === 'light' ? light : dark}>
       <h2 className="my-3">About Us</h2>
